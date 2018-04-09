@@ -5,18 +5,19 @@
   
 
   
-  <title>ml-papers</title>
+  <title>Pandoc と MathJax 用のプラグインを導入する | ml-papers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="機械学習の論文の備忘録">
+  <meta name="description" content="参考  HexoのレンダリングエンジンとしてPandocを使う - Qiita  手順 pandoc は必須 1brew install pandoc 各種プラグインをインストール 12npm install hexo-renderer-pandoc --savenpm install hexo-renderer-mathjax --save デフォルトのレンダラが悪さをしてるので削除1 1npm">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ml-papers">
-<meta property="og:url" content="https://openjny.github.io/ml-papers/index.html">
+<meta property="og:title" content="Pandoc と MathJax 用のプラグインを導入する">
+<meta property="og:url" content="https://openjny.github.io/ml-papers/installation/pandoc-mathjax.html">
 <meta property="og:site_name" content="ml-papers">
-<meta property="og:description" content="機械学習の論文の備忘録">
+<meta property="og:description" content="参考  HexoのレンダリングエンジンとしてPandocを使う - Qiita  手順 pandoc は必須 1brew install pandoc 各種プラグインをインストール 12npm install hexo-renderer-pandoc --savenpm install hexo-renderer-mathjax --save デフォルトのレンダラが悪さをしてるので削除1 1npm">
 <meta property="og:locale" content="ja">
+<meta property="og:updated_time" content="2018-04-09T14:47:24.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ml-papers">
-<meta name="twitter:description" content="機械学習の論文の備忘録">
+<meta name="twitter:title" content="Pandoc と MathJax 用のプラグインを導入する">
+<meta name="twitter:description" content="参考  HexoのレンダリングエンジンとしてPandocを使う - Qiita  手順 pandoc は必須 1brew install pandoc 各種プラグインをインストール 12npm install hexo-renderer-pandoc --savenpm install hexo-renderer-mathjax --save デフォルトのレンダラが悪さをしてるので削除1 1npm">
   
     <link rel="alternate" href="/ml-papers/atom.xml" title="ml-papers" type="application/atom+xml">
   
@@ -63,12 +64,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/ml-papers/2018/04/09/hello-world/" class="article-date">
-  <time datetime="2018-04-09T13:48:47.268Z" itemprop="datePublished">2018-04-09</time>
+    <a href="/ml-papers/installation/pandoc-mathjax.html" class="article-date">
+  <time datetime="2018-04-09T13:53:25.000Z" itemprop="datePublished">2018-04-09</time>
 </a>
     
   </div>
@@ -78,8 +77,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/ml-papers/2018/04/09/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      Pandoc と MathJax 用のプラグインを導入する
     </h1>
   
 
@@ -87,35 +86,46 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>参考</p>
+<ul>
+<li><a href="https://qiita.com/sky_y/items/7c29909c5cffa28b23d8" target="_blank" rel="noopener">HexoのレンダリングエンジンとしてPandocを使う - Qiita</a></li>
+</ul>
+<h1 id="手順">手順</h1>
+<p>pandoc は必須</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install pandoc</span><br></pre></td></tr></table></figure>
+<p>各種プラグインをインストール</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pandoc --save</span><br><span class="line">npm install hexo-renderer-mathjax --save</span><br></pre></td></tr></table></figure>
+<p>デフォルトのレンダラが悪さをしてるので削除<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br></pre></td></tr></table></figure>
+<h2 id="mathjax-サンプル">mathjax サンプル</h2>
+<p><span class="math inline">\(\{ \mathbf{x}_n, t_n \}_{n = 1}^N\)</span> に対して</p>
+<p><span class="math display">\[
+\mathbf{X} = \begin{pmatrix} \mathbf{x}_1^\top \\
+\vdots \\
+\mathbf{x}_N^\top \end{pmatrix}
+\]</span></p>
+<p>を計画行列と呼ぶ．</p>
+<h2 id="pandoc-のサンプル">pandoc のサンプル</h2>
+<p><a href="./pandoc-mathjax-test.html">デモ</a></p>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn1"><p><a href="http://miclee.cn/2017/04/20/%E6%9B%B4%E6%94%B9Hexo%E7%9A%84Markdown%E8%A7%A3%E6%9E%90/" target="_blank" rel="noopener">更改Hexo的Markdown解析 | MicLee's Bolg</a><a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://openjny.github.io/ml-papers/2018/04/09/hello-world/" data-id="cjfsct9qc00002wsm4gz05pae" class="article-share-link">共有</a>
+      <a data-url="https://openjny.github.io/ml-papers/installation/pandoc-mathjax.html" data-id="cjfsct9qk00032wsm5oq70vft" class="article-share-link">共有</a>
       
       
     </footer>
   </div>
   
-</article>
-
-
+    
   
-
+</article>
 
 </section>
         

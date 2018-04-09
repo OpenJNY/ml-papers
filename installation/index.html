@@ -7,17 +7,17 @@
   
   <title>Installation | ml-papers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hexo によるサイト構築 GitHub Pages へのデプロイまで必要なもの npm, git github アカウント  手順まず hexo-cli のインストール 1npm i -g hexo-cli 静的サイトのプロジェクトフォルダを作成し，デプロイに必要なモジュールをインストール． 123hexo init ml-paperscd ml-papersnpm install hexo-d">
+  <meta name="description" content="hexo によるサイト構築 GitHub Pages へのデプロイまで 必要なもの  npm, git github アカウント  手順 まず hexo-cli のインストール 1npm i -g hexo-cli 静的サイトのプロジェクトフォルダを作成し，デプロイに必要なモジュールをインストール． 123hexo init ml-paperscd ml-papersnpm install hex">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Installation">
 <meta property="og:url" content="https://openjny.github.io/ml-papers/installation/index.html">
 <meta property="og:site_name" content="ml-papers">
-<meta property="og:description" content="hexo によるサイト構築 GitHub Pages へのデプロイまで必要なもの npm, git github アカウント  手順まず hexo-cli のインストール 1npm i -g hexo-cli 静的サイトのプロジェクトフォルダを作成し，デプロイに必要なモジュールをインストール． 123hexo init ml-paperscd ml-papersnpm install hexo-d">
+<meta property="og:description" content="hexo によるサイト構築 GitHub Pages へのデプロイまで 必要なもの  npm, git github アカウント  手順 まず hexo-cli のインストール 1npm i -g hexo-cli 静的サイトのプロジェクトフォルダを作成し，デプロイに必要なモジュールをインストール． 123hexo init ml-paperscd ml-papersnpm install hex">
 <meta property="og:locale" content="ja">
 <meta property="og:updated_time" content="2018-04-09T14:12:06.448Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Installation">
-<meta name="twitter:description" content="hexo によるサイト構築 GitHub Pages へのデプロイまで必要なもの npm, git github アカウント  手順まず hexo-cli のインストール 1npm i -g hexo-cli 静的サイトのプロジェクトフォルダを作成し，デプロイに必要なモジュールをインストール． 123hexo init ml-paperscd ml-papersnpm install hexo-d">
+<meta name="twitter:description" content="hexo によるサイト構築 GitHub Pages へのデプロイまで 必要なもの  npm, git github アカウント  手順 まず hexo-cli のインストール 1npm i -g hexo-cli 静的サイトのプロジェクトフォルダを作成し，デプロイに必要なモジュールをインストール． 123hexo init ml-paperscd ml-papersnpm install hex">
   
     <link rel="alternate" href="/ml-papers/atom.xml" title="ml-papers" type="application/atom+xml">
   
@@ -87,11 +87,14 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>hexo によるサイト構築</p>
-<h1 id="GitHub-Pages-へのデプロイまで"><a href="#GitHub-Pages-へのデプロイまで" class="headerlink" title="GitHub Pages へのデプロイまで"></a>GitHub Pages へのデプロイまで</h1><h2 id="必要なもの"><a href="#必要なもの" class="headerlink" title="必要なもの"></a>必要なもの</h2><ul>
+<h1 id="github-pages-へのデプロイまで">GitHub Pages へのデプロイまで</h1>
+<h2 id="必要なもの">必要なもの</h2>
+<ul>
 <li>npm, git</li>
 <li>github アカウント</li>
 </ul>
-<h2 id="手順"><a href="#手順" class="headerlink" title="手順"></a>手順</h2><p>まず hexo-cli のインストール</p>
+<h2 id="手順">手順</h2>
+<p>まず hexo-cli のインストール</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
 <p>静的サイトのプロジェクトフォルダを作成し，デプロイに必要なモジュールをインストール．</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init ml-papers</span><br><span class="line"><span class="built_in">cd</span> ml-papers</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
@@ -99,14 +102,15 @@
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">機械学習の論文</span></span><br><span class="line"><span class="attr">subtitle:</span></span><br><span class="line"><span class="attr">description:</span></span><br><span class="line"><span class="attr">keywords:</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">OpenJNY</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">ja</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Tokyo</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># gh-pages のルートを指定する（io page なら不要）</span></span><br><span class="line"><span class="attr">url:</span> <span class="attr">https://openjny.github.io/ml-papers/</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/ml-papers/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># ....</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:OpenJNY/ml-papers.git</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
 <p>デプロイ出来るか確認する．</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy -g</span><br></pre></td></tr></table></figure>
-<p>ソースコードは master ブランチで管理する．<br>この時勝手に public, node_modules あたりを無視する <code>.gitignore</code> が作成されるのでご安心を．</p>
+<p>ソースコードは master ブランチで管理する． この時勝手に public, node_modules あたりを無視する <code>.gitignore</code> が作成されるのでご安心を．</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git remote add origin git@github.com:OpenJNY/ml-papers.git</span><br><span class="line">git add -A</span><br><span class="line">git commit -m <span class="string">"first commit"</span></span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
-<h1 id="pull-して来た時"><a href="#pull-して来た時" class="headerlink" title="pull して来た時"></a>pull して来た時</h1><p>master ブランチだけとってきて，必要な node module をプロジェクト内にインストールすればよい．<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b master git:github.com:openjny/ml-papers.git</span><br><span class="line"><span class="built_in">cd</span> ml-papers</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
+<h1 id="pull-して来た時">pull して来た時</h1>
+<p>master ブランチだけとってきて，必要な node module をプロジェクト内にインストールすればよい． <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b master git:github.com:openjny/ml-papers.git</span><br><span class="line"><span class="built_in">cd</span> ml-papers</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://openjny.github.io/ml-papers/installation/index.html" data-id="cjfsbek1w0001hism1gx4zykj" class="article-share-link">共有</a>
+      <a data-url="https://openjny.github.io/ml-papers/installation/index.html" data-id="cjfsct9qg00012wsmw9seyx1h" class="article-share-link">共有</a>
       
       
     </footer>
@@ -187,5 +191,20 @@
 
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
