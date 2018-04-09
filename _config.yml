@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 機械学習の論文
+title: ml-papers
 subtitle:
-description:
+description: 機械学習の論文の備忘録
 keywords:
 author: OpenJNY
-language:
-timezone:
+language: ja
+timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://openjny.github.io/ml-papers
+url: https://openjny.github.io/ml-papers/
 root: /ml-papers/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
